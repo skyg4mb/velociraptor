@@ -6,12 +6,12 @@ const Spanish = {
     "Quarantine description": (<>
           <p>Está a punto de poner en cuarentena este host.</p>
           <p>
-            Durante la cuarentena, el anfitrión no puede hacer esto
-            comunicarse con todas las demás redes, excepto que
-            Servidor Velociraptor.
+            Durante la cuarentena, el host no puede
+            comunicarse con ninguna otra red, excepto hacia el
+            Servidor de Velociraptor.
           </p>
         </>),
-    "Cannot Quarantine host": "No se puede poner en cuarentena el host",
+    "Cannot Quarantine host": "No fue posible poner en cuarentena el host",
     "Cannot Quarantine host message": (os_name, quarantine_artifact)=>
         <>
           <Alert variant="warning">
@@ -21,7 +21,7 @@ const Spanish = {
             }
           </Alert>
         </>,
-    "Client ID": "Identificación del cliente",
+    "Client ID": "ID del cliente",
     "Agent Version": "Versión del agente",
     "Agent Name": "Nombre del Agente",
     "First Seen At": "Visto por primera vez en",
@@ -31,11 +31,11 @@ const Spanish = {
     "Operating System": "Sistema Operativo",
     "Hostname": "nombre de host",
     "FQDN": "FQDN",
-    "Release": "Liberarg",
-    "Architecture": "La Arquitectura",
+    "Release": "Release",
+    "Architecture": "Arquitectura",
     "Client Metadata": "Metadatos del cliente",
     "Interrogate": "Interroga",
-    "VFS": "Sistema de archivos virtual",
+    "VFS": "VFS",
     "Collected": "Recopilado",
     "Unquarantine Host": "Anfitrión sin cuarentena",
     "Quarantine Host": "Anfitrión en cuarentena",
@@ -43,7 +43,7 @@ const Spanish = {
     "Add Label": "Agregar etiqueta",
     "Overview": "Resumen",
     "VQL Drilldown": "Desglose",
-    "Shell": "Carcasa",
+    "Shell": "Shell",
     "Close": "Cerca",
     "Connected": "Conectado",
     "seconds": "segundos",
@@ -58,7 +58,7 @@ const Spanish = {
     "Label Clients": "Etiqueta de Cliente",
     "Existing": "Existente",
     "A new label": "Una nueva etiqueta",
-    "Add it!": "¡Añádelo!",
+    "Add it!": "¡Agregarlo!",
     "Delete Clients": "Eliminar Clientes",
     "DeleteMessage": "Está a punto de eliminar permanentemente los siguientes clientes",
     "Yeah do it!": "¡Sí, hazlo!",
